@@ -1,0 +1,51 @@
+.pokedexId285{
+   
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    text-align: center;
+    border: 10px dotted rgb(255, 3, 3);
+    width: 30%;
+    height:900px;
+    padding: 10px;
+    background-color: rgb(88, 16, 16);
+    background-clip: padding-box;
+    border-radius: 25%;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    background-color: brown;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    padding:20px; 
+    margin-top:20px;
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+
+.img{
+    width: 300px;
+    transform: scale(1.2);
+    transition-property:transform ;
+    transition-duration: 2s;
+   
+}
+.img:hover{
+transform: translateX(5px);
+
+}
+
+.text-danger.rotate{
+animation: rotate 2s linear infinite;
+}
+    
